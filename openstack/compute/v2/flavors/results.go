@@ -58,6 +58,9 @@ type Flavor struct {
 	// RAM is the amount of memory, measured in MB.
 	RAM int `json:"ram"`
 
+        // Memory for PowerVC, measured in GB.
+	Memory int `json:"memory"`
+
 	// Name is the name of the flavor.
 	Name string `json:"name"`
 
